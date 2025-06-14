@@ -1,0 +1,66 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebooks checkpoints (if used)
+.ipynb_checkpoints/
+
+# Environment variables or secrets
+.env
+*.env
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# Vector DB or embedding cache
+embeddings/
+index/
+chroma_db/
+*.faiss
+*.npy
+*.npz
+
+# LLM model weights (if locally used)
+models/
+*.bin
+*.pt
+*.gguf
+*.ckpt
+
+# Cached files
+*.cache
+__results__/
+
+# Requirements file backups
+requirements*.txt~
+
+# Output from tests or scripts
+*.out
+*.tmp
+
+# Node (if you're using a UI or frontend)
+node_modules/
+dist/
+build/
+chrome_langchain_db/
